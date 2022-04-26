@@ -26,17 +26,19 @@ const Counter = () => {
   };
 
   return (
-    <div className="counter">
-      <button className="l-btn" onClick={decNum}>
-        -
-      </button>
-      <h1>
+    <>
+      <div className="counter">
+        <button className="l-btn" onClick={decNum}>
+          -
+        </button>
+
         <input type="text" value={num} onChange={inputNum} />
-      </h1>
-      <button className="r-btn" onClick={incNum}>
-        +
-      </button>
-    </div>
+
+        <button className="r-btn" onClick={incNum}>
+          +
+        </button>
+      </div>
+    </>
   );
 };
 

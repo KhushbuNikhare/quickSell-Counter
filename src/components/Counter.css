@@ -1,45 +1,42 @@
 .counter{
     display: flex;
     margin: 8% 40% ;
-   
+    
 }
 
 .counter button{
-   width: 100%;
+   width: 30%;
    height: 52px;
    background-color: #a54946;
    border: none;
    color: aliceblue;
    font-weight: bolder;
    font-size:x-large;
-   margin-top: 10%;
-   border-radius: 5px;
+  
+
 }
-/* 
-.counter h1{
-    width: 50%;
-    margin: -5%;
-    border: 1px solid #a54946;
-    color: #a54946;
-    background-color: #f8e9e9;
-} */
 
 input{
     border: 1px solid #a54946;
     background-color: #f8e9e9;
-    width: 70%;
-    height: 47px;
+    width: 25%;
+    height: 48px;
     color: #a54946;
     font-size: x-large;
     text-align: center;
     font-weight: bold;
-    margin-top: 8%;
+  
     
 }
-.l-btn{
-    margin-right: -8%;
-}
+
 .r-btn{
-    margin-left: -6%;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
+
+.l-btn{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
 
